@@ -21,5 +21,21 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	background-color: aqua;
+}
+
+:root {
+	--primary-color: #fbd144;
+	--secondary-color: #ffe071;
+
+	--dark-mode-background: #0c151d;
+	--light-mode-background: var(--gray-100);
+
+	--white: #ffffff;
+	--gray-100: #f1f2f4;
+	--gray-200: #c3c7cb;
+	--gray-300: #a3abb2;
+	--gray-400: #6d6d6d;
+	--gray-500: #555555;
+	--gray-600: #171f26;
+	--gray-700: #222222;
 }
