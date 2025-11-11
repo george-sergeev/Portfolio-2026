@@ -49,6 +49,7 @@ body {
 .container {
 	max-width: 650px;
 	margin: 0 auto;
+	padding: 16px;
 }
 
 .personal-info__content {
