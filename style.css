@@ -95,3 +95,39 @@ body {
 .personal-info__social-link:hover {
 	color: var(--gray-700);
 }
+
+.profile-actions__wrapper {
+	display: flex;
+	gap: 16px;
+}
+
+.profile-actions__button {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 68px;
+	height: 56px;
+	font-weight: 500;
+	color: var(--gray-600);
+	background-color: var(--white);
+	border: none;
+	border-radius: 8px;
+}
+
+.profile-actions__button--primary-color {
+	gap: 8px;
+	width: 464px;
+	background-color: var(--primary-color);
+}
+.profile-actions__button--primary-color:hover {
+	background-color: var(--secondary-color);
+}
+
+.profile-actions__button--primary-color span {
+	width: 20px;
+	height: 20px;
+	background-image: url(./icons/download-icon.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
