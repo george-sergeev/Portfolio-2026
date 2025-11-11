@@ -19,10 +19,6 @@
 	font-style: normal;
 }
 
-body {
-	font-family: 'Montserrat', sans-serif;
-}
-
 :root {
 	--primary-color: #fbd144;
 	--secondary-color: #ffe071;
@@ -38,4 +34,13 @@ body {
 	--gray-500: #555555;
 	--gray-600: #171f26;
 	--gray-700: #222222;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: var(--gray-600);
 }
