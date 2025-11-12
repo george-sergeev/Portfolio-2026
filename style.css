@@ -185,6 +185,10 @@ body {
 	color: var(--gray-600);
 }
 
+.education {
+	padding: 0 16px;
+}
+
 .education__wrapper {
 	display: flex;
 	flex-wrap: wrap;
