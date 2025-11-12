@@ -150,7 +150,6 @@ body {
 	/* !Разобраться почему тут возник padding */
 	padding: 0;
 	font-weight: 500;
-	color: var(--gray-600);
 	background-color: var(--white);
 	border: none;
 	border-radius: 8px;
@@ -158,4 +157,30 @@ body {
 
 .content-switcher__button--active {
 	background-color: var(--gray-100);
+}
+
+.projects__wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+}
+
+.projects__card {
+	text-decoration: none;
+}
+
+.projects__card-preview {
+	margin-bottom: 16px;
+}
+
+.projects__card-technology {
+	margin-bottom: 6px;
+	font-size: 13px;
+	color: var(--gray-500);
+}
+
+.projects__card-title {
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--gray-600);
 }
