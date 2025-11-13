@@ -247,3 +247,21 @@ body {
 .hard-skills__image {
 	margin-bottom: 8px;
 }
+
+.soft-skills__title {
+	margin-bottom: 18px;
+	font-size: 32px;
+	font-weight: 600;
+	color: var(--gray-700);
+}
+
+.soft-skills__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 18px 40px;
+}
+
+.soft-skills__item {
+	font-size: 20px;
+	font-weight: 600;
+}
