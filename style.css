@@ -51,6 +51,28 @@ body {
 	margin: 0 auto;
 }
 
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+	padding: 0 40px;
+	background-color: var(--white);
+}
+
+.header__button {
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+
+	color: var(--white);
+	background-color: var(--primary-color);
+	border: none;
+	border-radius: 50%;
+}
+
 .personal-info__content {
 	padding: 0 16px;
 	display: flex;
