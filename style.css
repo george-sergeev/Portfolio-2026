@@ -228,3 +228,25 @@ body {
 .education__degree {
 	font-size: 14px;
 }
+
+.hard-skills__title {
+	margin-bottom: 18px;
+}
+
+.hard-skills__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 73px;
+}
+
+.hard-skills__item {
+	display: grid;
+	place-items: center;
+}
+
+.hard-skills__image {
+	margin-bottom: 8px;
+}
+
+.hard-skills__name {
+}
