@@ -77,8 +77,18 @@ body {
 	margin-top: 140px;
 }
 
-.personal-info__content {
+.section-title {
+	margin-bottom: 18px;
+	font-size: 32px;
+	font-weight: 600;
+	color: var(--gray-700);
+}
+
+.section-padding {
 	padding: 0 16px;
+}
+
+.personal-info__content {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
@@ -123,7 +133,6 @@ body {
 }
 
 .profile-actions__wrapper {
-	padding: 0 16px;
 	display: flex;
 	gap: 16px;
 }
@@ -211,21 +220,10 @@ body {
 	color: var(--gray-600);
 }
 
-.education {
-	padding: 0 16px;
-}
-
 .education__wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-}
-
-.education__title {
-	margin-bottom: 18px;
-	font-size: 32px;
-	font-weight: 600;
-	color: var(--gray-700);
 }
 
 .education__block {
@@ -255,10 +253,6 @@ body {
 	font-size: 14px;
 }
 
-.hard-skills__title {
-	margin-bottom: 18px;
-}
-
 .hard-skills__list {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -272,13 +266,6 @@ body {
 
 .hard-skills__image {
 	margin-bottom: 8px;
-}
-
-.soft-skills__title {
-	margin-bottom: 18px;
-	font-size: 32px;
-	font-weight: 600;
-	color: var(--gray-700);
 }
 
 .soft-skills__list {
