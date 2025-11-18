@@ -20,8 +20,10 @@
 }
 
 :root {
-	--primary-color: #fbd144;
-	--secondary-color: #ffe071;
+	/* --primary-color: #fbd144; */
+	--primary-color: #00a4ff;
+	/* --secondary-color: #ffe071; */
+	--secondary-color: #0391e0;
 
 	--dark-mode-background: #0c151d;
 	--light-mode-background: var(--gray-100);
@@ -231,6 +233,11 @@ body {
 	font-size: 18px;
 	font-weight: 500;
 	color: var(--gray-600);
+}
+
+.container__block {
+	display: grid;
+	row-gap: 64px;
 }
 
 .education__wrapper {
