@@ -227,6 +227,8 @@ body {
 }
 
 .projects__card-preview {
+	width: 330px;
+	height: 220px;
 	margin-bottom: 16px;
 }
 
