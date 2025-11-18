@@ -80,7 +80,7 @@ body {
 }
 
 .main {
-	margin-top: 140px;
+	margin: 140px 0 160px;
 }
 
 .container {
@@ -290,4 +290,14 @@ body {
 .soft-skills__item {
 	font-size: 20px;
 	font-weight: 600;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.footer__page {
+	margin: 0 auto;
 }
