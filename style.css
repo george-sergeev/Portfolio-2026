@@ -36,6 +36,10 @@
 	--gray-700: #222222;
 }
 
+::-webkit-scrollbar {
+	width: 0;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -44,6 +48,10 @@ body {
 	font-weight: 400;
 	color: var(--gray-600);
 	background-color: var(--light-mode-background);
+}
+
+.hidden {
+	display: none !important;
 }
 
 .header {
