@@ -135,7 +135,7 @@ body {
 .personal-info__social-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 24px;
+	gap: 12px;
 }
 
 .personal-info__social-link {
